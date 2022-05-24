@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  homebridge:
+    repository: addon-homebridge
+    target: homebridge
+    image: hub.docker.com/r/hassioaddons/homebridge-{arch}
